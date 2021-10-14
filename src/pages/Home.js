@@ -3,7 +3,7 @@ import Container from "../components/Container";
 function Home() {
     return (
         <div>
-            <h1>Welcome to My Home Page</h1>
+            <h1 className="homeh">Welcome Home Page</h1>
             <Container/>
         </div>
     )

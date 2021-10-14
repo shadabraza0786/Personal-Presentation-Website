@@ -26,7 +26,6 @@ console.log(data)
         <div>
             <h1 className="apih">Fetching Api data</h1>
             {isLoading && <Loader/>}
-            <hr/>
             {data.map((post) => {
                 return(
                     <p className="card" key={post.id}>{post.title}</p>
