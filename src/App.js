@@ -7,6 +7,7 @@ import Footer from "./components/Footer";
 import { Switch, Route } from "react-router-dom";
 import "./App.css";
 
+// Now we are creating function based components
 
 function App(){
   return(
