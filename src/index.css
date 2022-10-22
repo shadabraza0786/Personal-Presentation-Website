@@ -122,6 +122,40 @@ h4
     color:white;
     border-radius:10px;
 }
+.CardDiv {
+    margin: 20px;
+    /* padding: 10px; */
+    display: inline-block;
+    width: 18rem;
+    border: 1px solid gray;
+    /* margin-left: 50px; */
+    border-radius: 5px;
+}
+.CardImgOne {
+    margin-top: 0px;
+   height: 225px;
+   width: 280px;
+}
+.GithubBtn {
+    margin-top: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    background-color: #2da44e;
+    width: 100px;
+    height: 30px;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+.GoLiveBtn {
+    margin-top: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    background-color: #c00;
+    width: 100px;
+    height: 30px;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
 .footer1
 {
     background-color:rgb(71, 64, 64);

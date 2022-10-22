@@ -4,6 +4,7 @@ import Services from "./pages/Services";
 import Contact from "./pages/Contact";
 import Navbar from "./components/Navbar"; 
 import Footer from "./components/Footer";
+import PortfolioPage from "./pages/Portfolio";
 import { Switch, Route } from "react-router-dom";
 import "./App.css";
 
@@ -19,6 +20,7 @@ function App(){
           <Route path="/About" component={About}/>
           <Route path="/Services" component={Services}/>
           <Route path="/Contact" component={Contact}/>
+          <Route path="/Portfolio" component={PortfolioPage}/>
           <Footer/>
         </div>
       </Switch>

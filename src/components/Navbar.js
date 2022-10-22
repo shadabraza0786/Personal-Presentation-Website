@@ -29,6 +29,7 @@ function Navbar() {
                 <Link to="/About">About</Link>
                 <Link to="/Services">Services</Link>
                 <Link to="/Contact">Contact</Link>
+                <Link to="/Portfolio">Projects</Link>
             </div>
 
             <div className="dropdown">
@@ -39,6 +40,7 @@ function Navbar() {
                     <Link to="/About">About</Link>
                     <Link to="/Services">Services</Link>
                     <Link to="/Contact">Contact</Link>
+                    <Link to="/Portfolio">Projects</Link>
                 </div>
             </div>
 
